@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid var(--wasabi);
+  border: 6px solid pink;
   border-top-color: #d2f9eb;
   border-radius: 50%;
   width: 60px;
@@ -146,7 +146,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgba(118, 118, 118, 0.9);
+  background: rgba(255, 255, 255, 0.9);
 }
 
 #header.header-transparent {
@@ -154,8 +154,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(215, 215, 215, 0.96);
+  background: white;
   height: 60px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #header .logo h1 {
@@ -225,7 +226,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: 3px;
   left: 30px;
-  background-color: #85b190;
+  background-color: pink;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -237,7 +238,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #85b190;
+  color: pink;
 }
 
 .navbar .dropdown ul {
